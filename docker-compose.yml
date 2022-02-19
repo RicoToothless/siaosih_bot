@@ -5,5 +5,5 @@ services:
       TZ: "Asia/Taipei"
     build: .
     volumes:
-      - ./data:/app/data
-    image: siaosihbot:latest
+      - ./token.txt:/app/token.txt
+    image: ghcr.io/rico/siaosihbot:latest #TODO
